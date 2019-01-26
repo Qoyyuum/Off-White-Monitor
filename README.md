@@ -10,6 +10,7 @@ In order for the monitor to work, you must have [Python 3+](https://www.python.o
 
 `git clone https://github.com/walmat/Off-White-Monitor.git`<br>
 `cd Off-White-Monitor`<br>
+`pip install requirements.txt`<br>
 `python3 main.py`
 
 Since you're most likely using Slack/Discord for notifications, go ahead and rename the file `config.sample.json` to `config.json`. Then open that file in whatever text editor you prefer and paste in your webhook tokens inside of the empty strings.
